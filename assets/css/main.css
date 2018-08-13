@@ -1,0 +1,19 @@
+/* page 开头 控制全局 */
+.page-enter-active, .page-leave-active {
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+}
+.page-enter, .page-leave-active {
+  opacity: 0;
+}
+
+.test-enter-active, .test-leave-active {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  font-size:12px;
+  
+}
+.test-enter, .test-leave-active {
+  opacity: 0;
+  font-size:40px;
+}
